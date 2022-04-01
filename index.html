@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Студія</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
 
       <nav class="panel_nav">
         <a href="/">
-          <div class="logo">Web<span class="studio">Studio</span></div>
+          <span class="web">Web</span><span class="studio">Studio</span>
         </a>
         <ul class="nav_item">
           <li><a href="">Студия</a></li>
@@ -30,12 +31,10 @@
       </ul>
     </header>
     <main>
-      <div class="basic_theme">
-        <section>
-          <h1 class="eff_for_buss">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button"></button>
-        </section>
-      </div>
+      <section class="basic_theme">
+        <h1 class="eff_for_buss">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button">Заказать услугу</button>
+      </section>
 
       <!-- Особенности -->
 
@@ -100,28 +99,28 @@
         <h2 class="team_wwd_head">Наша команда</h2>
         <ul class="team_list">
           <li class="team_card">
+            <img src="./img/igor.svg" alt="Фото Игорь Демьяненко" width="270" />
             <h3 class="name">Игорь Демьяненко</h3>
             <p class="position">Product Designer</p>
-            <img src="./img/igor.svg" alt="Фото Игорь Демьяненко" width="270" />
           </li>
           <li class="team_card">
+            <img src="./img/olga.svg" alt="Фото Ольга Репина" width="270" />
             <h3 class="name">Ольга Репина</h3>
             <p class="position">Frontend Developer</p>
-            <img src="./img/olga.svg" alt="Фото Ольга Репина" width="270" />
           </li>
           <li class="team_card">
-            <h3 class="name">Николай Тарасов</h3>
-            <p class="position">Marketing</p>
             <img
               src="./img/nikolay.svg"
               alt="Фото Николай Тарасов"
               width="270"
             />
+            <h3 class="name">Николай Тарасов</h3>
+            <p class="position">Marketing</p>
           </li>
           <li class="team_card">
+            <img src="./img/mike.svg" alt="Фото Михаил Ермаков" width="270" />
             <h3 class="name">Михаил Ермаков</h3>
             <p class="position">UI Designer</p>
-            <img src="./img/mike.svg" alt="Фото Михаил Ермаков" width="270" />
           </li>
         </ul>
       </section>
@@ -129,22 +128,21 @@
     <footer>
       <div class="footer_sec">
         <a href="/">
-          <div class="logo">Web<span class="studio">Studio</span></div>
+          <span class="logo">Web</span><span class="studio">Studio</span>
         </a>
 
         <!-- Как нас найти -->
-
-        <ul class="connection_list">
-          <li class="conn_item">
-            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-          </li>
-          <li class="conn_item">
-            <a href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="conn_item">
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
+        <address>
+          <ul class="connection_list">
+            <li class="location">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="conn_item">
+              <a href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="conn_item">
+              <a href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
